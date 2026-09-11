@@ -1,0 +1,18 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/:path*", "has": [{ "type": "host", "value": "swift-chat.dev" }], "destination": "https://swiftchat.app/:path*", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.swift-chat.dev" }], "destination": "https://swiftchat.app/:path*", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "unionchat.dev" }], "destination": "https://swiftchat.app/:path*", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.unionchat.dev" }], "destination": "https://swiftchat.app/:path*", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.swiftchat.app" }], "destination": "https://swiftchat.app/:path*", "permanent": true },
+    { "source": "/docs", "destination": "https://www.swiftipedia.org/documentation/unionchat", "permanent": false },
+    { "source": "/github", "destination": "https://github.com/unionst/swift-chat", "permanent": false }
+  ],
+  "headers": [
+    { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
+    { "source": "/(.*)\\.txt", "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }, { "key": "Access-Control-Allow-Origin", "value": "*" }] },
+    { "source": "/(.*)", "headers": [{ "key": "X-Content-Type-Options", "value": "nosniff" }, { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }] }
+  ]
+}
