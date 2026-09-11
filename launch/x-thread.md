@@ -1,11 +1,11 @@
 # X launch thread (modeled on @jmtrivedi's Wave thread, May 31 2022)
 
-## Post 1 (link card, no media)
+## Post 1 (link card, no media; Rate·fm uses a middle dot so X doesn't auto-link it)
 I'm making Swift Chat free: iMessage, rebuilt line for line as a SwiftUI view!
 
 Swift Chat gives you photos, video and files in bubbles, tapback reactions, group chats with avatars, typing indicators, read receipts, and the keyboard you drag with your finger, out of the box.
 
-And if you've used Rate.fm, Tally, or Jester, you've already seen it in action: their chats are all built with Swift Chat!
+And if you've used Rate·fm, Tally, or Jester, you've already seen it in action: their chats are all built with Swift Chat!
 
 https://swiftchat.app
 
