@@ -1,0 +1,13 @@
+TITLE:
+Every post on my 6-year-old account now says “removed by Reddit’s filters,” including a 900-upvote post. Can’t message subreddits either. How do I get a human to look?
+
+FLAIR: Posting
+
+BODY:
+Account: u/IcyHovercraft7767, six years old, about 980 karma, email verified, no other accounts.
+
+Every post in my history now says, “Sorry, this post is removed by Reddit’s filters,” including a 903-upvote post in r/swift from 6 years ago and a 246-upvote post from 5 months ago. One post I made to r/swift yesterday about a free Swift package I built was removed the same way.
+
+When I try to message the subreddit’s mods, I get, “You can’t message that user.” I first noticed that messages were failing a few days ago, so the flag definitely predates yesterday’s post.
+
+reddit.com/appeals redirects to the homepage because the account isn’t suspended, and the support form’s account status path says it’s not the right channel either. Is there a way to get a human to review the account and restore my posts? Happy to verify or anything else you need.

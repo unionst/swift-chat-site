@@ -1,0 +1,5 @@
+Author here. I spent about a year rebuilding iMessage in SwiftUI: the collated bubble tails, typing dots that breathe in a wave, Delivered fading into Read, the keyboard you can drag down from the input bar. Then I shipped it as a package and it got nine stars. The post is the whole ledger, including why I think nobody wanted it.
+
+It did end up in production in three apps of mine, so this week I renamed it Swift Chat, made it free, and tagged 1.0: https://github.com/unionst/swift-chat
+
+Happy to answer anything about the keyboard handling, which was the hardest part by a mile.

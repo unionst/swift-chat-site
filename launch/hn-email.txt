@@ -1,0 +1,9 @@
+To: hn@ycombinator.com
+Subject: Flagged Show HN yesterday, posting a post-mortem today
+
+Hi. I'm blsage on HN. Yesterday I submitted a Show HN for Whereabouts (a location page I built) and it was flagged within minutes, and a second submission was rate-limited. I'm a real person and an iOS developer; the account is just low-karma.
+
+This morning I'd like to submit a post-mortem I wrote about spending a year rebuilding iMessage in SwiftUI and getting nine stars: https://sage.me/imessage. Could you make sure the account isn't treated as spam when I do? Happy to verify anything.
+
+Thanks,
+Ben Sage
