@@ -58,7 +58,7 @@
         { "@type": "Question", "name": "Does Swift Chat work with my backend?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Swift Chat renders any collection of Identifiable values you already have. You map each one to a Message and handle sending in onChatSend. It has no networking of its own." } },
         { "@type": "Question", "name": "Is Swift Chat the same as UnionChat?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. UnionChat was renamed Swift Chat in September 2026. The package still exports a UnionChat product so existing imports keep compiling, and the old repository URL redirects." } },
         { "@type": "Question", "name": "Can I change the bubble color?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Apply .tint or .chatBubbleStyle with any ShapeStyle, including gradients. Tails, sender info, haptics, and the input bar tint each have their own modifier." } },
-        { "@type": "Question", "name": "Is Swift Chat open source?", "acceptedAnswer": { "@type": "Answer", "text": "Swift Chat ships as a binary Swift package from a public GitHub repository. Teams that want source access or custom terms can write to hello@unionst.com." } }
+        { "@type": "Question", "name": "Is Swift Chat free? Is it open source?", "acceptedAnswer": { "@type": "Answer", "text": "Swift Chat is free to use in any app, including commercial apps. It is closed source and ships as a binary Swift package, the way Apple distributes its own frameworks. Teams that want source access can write to hello@unionst.com." } }
       ]
     }
   ]
@@ -273,7 +273,7 @@ footer a:hover { color: var(--ink); }
       <a class="btn secondary" href="https://github.com/unionst/swift-chat">View on GitHub</a>
       <a class="btn secondary" href="https://www.swiftipedia.org/documentation/unionchat">Read the docs</a>
     </div>
-    <p class="reqs">iOS 18 and later. Swift 6. Installs with Swift Package Manager. Made by <a href="https://unionst.com">Union St</a>.</p>
+    <p class="reqs">Version 1.0. Free to use in any app. iOS 18 and later. Made by <a href="https://unionst.com">Union St</a>.</p>
 
     <figure class="hero-media">
       <div class="phone">
@@ -543,9 +543,9 @@ Chat {
       <div><h3>What does it require?</h3><p>iOS 18 or later, Xcode 16 or later, Swift 6.1 or later. Install it with Swift Package Manager and depend on the <code>SwiftChat</code> product.</p></div>
       <div><h3>Does it work with my backend?</h3><p>Yes. It renders whatever collection of identifiable values you already have and calls you back when the user sends. There is no networking inside it to fight with.</p></div>
       <div><h3>Why iOS 18?</h3><p>The keyboard tracking, the glass input bar and the scroll-edge effects lean on APIs that arrived in iOS 18. Supporting 17 would mean shipping a worse version of the thing this package exists for.</p></div>
-      <div><h3>Is it out of beta?</h3><p>Releases are still tagged beta while the API settles. It runs in production in Rate.fm, Tally and Jester today, and the 0.7 line has been stable for months.</p></div>
+      <div><h3>Is it out of beta?</h3><p>Yes. 1.0 shipped in September 2026 after forty-six pre-releases. It runs in production in Rate.fm, Tally and Jester.</p></div>
       <div><h3>Is this the same package as UnionChat?</h3><p>Yes. UnionChat became Swift Chat in September 2026. The package still exports a <code>UnionChat</code> product so existing imports keep compiling, and the old repository URL redirects.</p></div>
-      <div><h3>Is it open source?</h3><p>It ships as a binary Swift package from a public GitHub repository. Teams that want source access, custom terms, or a hand integrating can write to <a href="mailto:hello@unionst.com">hello@unionst.com</a>.</p></div>
+      <div><h3>Is it free? Is it open source?</h3><p>Free, yes. Use it in any app, including commercial ones, at no charge. Open source, no. It ships as a binary the same way Apple distributes its own frameworks. The <a href="https://github.com/unionst/swift-chat/blob/main/LICENSE">license</a> is a page long. Teams that want the source can write to <a href="mailto:hello@unionst.com">hello@unionst.com</a>.</p></div>
     </div>
   </div>
 </section>
@@ -559,7 +559,7 @@ Chat {
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="12" height="12" rx="2.5"/><path d="M15 9V5.5A2.5 2.5 0 0 0 12.5 3h-7A2.5 2.5 0 0 0 3 5.5v7A2.5 2.5 0 0 0 5.5 15H9"/></svg>
       </button>
     </div>
-    <p class="reqs">Free to add. iOS 18 and later.</p>
+    <p class="reqs">Free to use in any app. Closed source, like Apple’s own frameworks. iOS 18 and later.</p>
   </div>
 </section>
 </main>
