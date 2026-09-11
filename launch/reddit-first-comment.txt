@@ -2,7 +2,7 @@ I spent about a year rebuilding iMessage in SwiftUI, shipped it as a package, an
 
 Please share thoughts & feedback! The package’s free, for the community, & I’m actively trying to improve it. Seriously, more feedback the better – this is meant for all of y’all 🙂
 
-Website: https://swiftchat.app
+Website: https://swift-chat.dev
 
 Github: https://github.com/unionst/swift-chat
 

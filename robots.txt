@@ -58,4 +58,4 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
-Sitemap: https://swiftchat.app/sitemap.xml
+Sitemap: https://swift-chat.dev/sitemap.xml

@@ -7,7 +7,7 @@ Swift Chat gives you photos, video and files in bubbles, tapback reactions, grou
 
 And if you've used Rate·fm, Tally, or Jester, you've already seen it in action: their chats are all built with Swift Chat!
 
-https://swiftchat.app
+https://swift-chat.dev
 
 ## Reply 1 (one technical detail + side-by-side GIF: launch/side-by-side.gif)
 Swift Chat isn't a SwiftUI List with bubbles in it. Underneath it's a UICollectionView, so the keyboard is corrected frame by frame as you drag it, and every bubble sits on a spring.

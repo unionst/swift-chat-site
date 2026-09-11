@@ -1,6 +1,6 @@
 # Swift Chat launch kit
 
-Drafts for the channels that need a human account. Post in this order over a week; each one links to swiftchat.app.
+Drafts for the channels that need a human account. Post in this order over a week; each one links to swift-chat.dev.
 
 ## Show HN
 
@@ -12,7 +12,7 @@ I've built chat screens for a lot of iOS apps (Polymarket, Whop, others) and eve
 
 Swift Chat is that 20% as one SwiftUI view. You hand it any collection of Identifiable values and a closure that turns each one into a Message; sending, typing, attachments and pagination are modifiers. A UIKit collection view does the work underneath, so it holds up with thousands of messages.
 
-Site: https://swiftchat.app
+Site: https://swift-chat.dev
 Repo: https://github.com/unionst/swift-chat
 Everything it does is on one page, including an llms.txt so your coding agent can add it for you.
 
@@ -32,7 +32,7 @@ Tails that land on the right bubble. Typing dots. Read receipts. Attachments. Th
 
 Chat(messages) { Message($0.text, role: $0.role, timestamp: $0.sentAt) }
 
-iOS 18+. swiftchat.app
+iOS 18+. swift-chat.dev
 
 (attach the hero video or swift-chat.png)
 
@@ -54,7 +54,7 @@ Body: two paragraphs from the Show HN text, plus the install snippet and a link 
 - https://github.com/vlondon/awesome-swiftui
 - https://github.com/matteocrippa/awesome-swift (UI › Chat section)
 
-One line each: `Swift Chat - The Messages app as a SwiftUI view: tails, typing indicators, read receipts, attachments, keyboard handling. https://swiftchat.app`
+One line each: `Swift Chat - The Messages app as a SwiftUI view: tails, typing indicators, read receipts, attachments, keyboard handling. https://swift-chat.dev`
 
 ## Directories
 
