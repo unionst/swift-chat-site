@@ -1,0 +1,3 @@
+Reply to the launch post, with assets/video/conversation.mp4 attached (the model post put its demo video in the first reply):
+
+Here it is running in a plain SwiftUI app. Watch the message lift out of the input bar, the keyboard stay put across three sends, and Delivered turn into Read. Recorded at 60fps, no tricks.
