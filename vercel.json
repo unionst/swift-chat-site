@@ -2,12 +2,7 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/:path*", "has": [{ "type": "host", "value": "swift-chat.dev" }], "destination": "https://swiftchat.app/:path*", "permanent": true },
-    { "source": "/:path*", "has": [{ "type": "host", "value": "www.swift-chat.dev" }], "destination": "https://swiftchat.app/:path*", "permanent": true },
-    { "source": "/:path*", "has": [{ "type": "host", "value": "unionchat.dev" }], "destination": "https://swiftchat.app/:path*", "permanent": true },
-    { "source": "/:path*", "has": [{ "type": "host", "value": "www.unionchat.dev" }], "destination": "https://swiftchat.app/:path*", "permanent": true },
-    { "source": "/:path*", "has": [{ "type": "host", "value": "www.swiftchat.app" }], "destination": "https://swiftchat.app/:path*", "permanent": true },
-    { "source": "/docs", "destination": "https://www.swiftipedia.org/documentation/unionchat", "permanent": false },
+                        { "source": "/docs", "destination": "https://www.swiftipedia.org/documentation/unionchat", "permanent": false },
     { "source": "/github", "destination": "https://github.com/unionst/swift-chat", "permanent": false }
   ],
   "headers": [
